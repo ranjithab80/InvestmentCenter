@@ -23,6 +23,7 @@ public class AdviserRegistrationValidation extends SeleniumDriver {
     public void initialiseAndNavigateRegistrationPage() throws IOException {
         driver = initialize();
         LOG.info("Browser is initialised");
+        LOG.info("Browser is initialised");
 
         driver.get(getProperties().getProperty("url"));
         driver.findElement(By.cssSelector("input[id='gateway-adviser']")).click();
