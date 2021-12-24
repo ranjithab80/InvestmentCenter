@@ -27,11 +27,13 @@ public class AdviserGuidePDF extends SeleniumDriver {
     public void initialise() {
         driver = initialize();
         LOGGER.info("Browser is initialised");
+        LOGGER.info("Browser is initialised");
+
     }
 
     @AfterTest
     public void tearDown() {
-        driver.quit();
+       // driver.close();
         LOGGER.info("Browser is closed!!");
     }
 
