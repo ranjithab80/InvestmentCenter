@@ -12,6 +12,7 @@ public class RegistrationPage {
     private By submit = By.name("AdviserRegsitration_Login");
     private By fsrEmptyErrorMsg = By.cssSelector("span[class='field-validation-error']");
     private By fsrRandomNoErrorMsg = By.cssSelector("span[class='field-validation-error']");
+    //webelements
 
     public RegistrationPage(WebDriver driver)
     {
