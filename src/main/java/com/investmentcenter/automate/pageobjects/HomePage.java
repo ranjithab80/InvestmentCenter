@@ -21,5 +21,6 @@ public class HomePage {
 
     public WebElement getRegister() {
         return driver.findElement(register);
+
     }
 }
