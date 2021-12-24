@@ -35,7 +35,7 @@ public class AdviserRegistrationValidation extends SeleniumDriver {
 
     @AfterTest
     public void tearDown() {
-        driver.quit();
+       // driver.close();
         LOG.info("Browser is closed!!");
     }
 
