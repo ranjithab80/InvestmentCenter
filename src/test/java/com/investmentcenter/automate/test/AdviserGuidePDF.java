@@ -35,6 +35,7 @@ public class AdviserGuidePDF extends SeleniumDriver {
     public void tearDown() {
        // driver.close();
         LOGGER.info("Browser is closed!!");
+        LOGGER.info("Browser is closed!!");
     }
 
     @Test
